@@ -1,8 +1,8 @@
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>أياد شلال | مبرمج مواقع ويب</title>
+  <title>أياد شلال | مبرمج مواقع ويب وتطبيقات</title>
+  <meta name="description" content="أياد شلال - مبرمج تطبيقات ومواقع ويب متخصص في واجهات وتجربة المستخدم. تصاميم احترافية ومشاريع برمجية مميزة.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -37,6 +37,7 @@
       margin-bottom: 20px;
       transition: transform 0.4s ease;
     }
+
     .profile-img:hover {
       transform: scale(1.05);
     }
@@ -62,7 +63,7 @@
     }
 
     .social-links a {
-      background: rgba(255, 255, 255, 0.2);
+      background: rgba(255, 255, 255, 0.15);
       border-radius: 50%;
       width: 50px;
       height: 50px;
@@ -70,18 +71,17 @@
       align-items: center;
       justify-content: center;
       text-decoration: none;
-      transition: 0.3s ease;
+      transition: all 0.3s ease;
     }
 
     .social-links a:hover {
-      background: rgba(255,255,255,0.35);
-      transform: translateY(-5px);
+      background: rgba(255,255,255,0.3);
+      transform: translateY(-6px) scale(1.1);
     }
 
     .social-links img {
-      width: 26px;
-      height: 26px;
-      filter: invert(1);
+      width: 28px;
+      height: 28px;
     }
 
     .projects {
@@ -91,6 +91,7 @@
       gap: 25px;
       margin: 50px 0;
       animation: fadeUp 2s ease;
+      padding: 0 10px;
     }
 
     .project {
@@ -160,6 +161,7 @@
       from { opacity: 0; transform: translateY(-20px); }
       to { opacity: 1; transform: translateY(0); }
     }
+
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(30px); }
       to { opacity: 1; transform: translateY(0); }
@@ -174,10 +176,10 @@
 
     <div class="social-links">
       <a href="https://wa.me/9647711651135" target="_blank" title="واتساب">
-        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670051.png" alt="واتساب">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="واتساب" style="filter: invert(1);">
       </a>
       <a href="https://www.instagram.com/pr_ayad?igsh=YWEya2dqMHNzcnht" target="_blank" title="إنستغرام">
-        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670125.png" alt="إنستغرام">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="إنستغرام" style="filter: invert(1);">
       </a>
     </div>
   </header>
