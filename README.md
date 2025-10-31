@@ -168,7 +168,6 @@
 <body>
   <header>
     <img src="https://uploads.onecompiler.io/442e5ty36/44386xdn8/1000032453.webp" alt="أياد شلال" class="profile-img">
-    <h1>أياد شلال</h1>
     <p>مبرمج تطبيقات ومواقع ويب | متخصص في واجهات وتجربة المستخدم</p>
 
     <div class="social-links">
